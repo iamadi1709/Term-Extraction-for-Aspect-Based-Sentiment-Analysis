@@ -1,4 +1,4 @@
-**🏨 Term Extraction for Aspect-Based Sentiment Analysis 📝**
+**🏨 Term Extraction for Aspect-Based Sentiment Analysis in European Hotel Reviews📝**
 
 ![image](https://github.com/user-attachments/assets/4d982e92-b96a-49ac-bb7b-c8af86000043)
 
