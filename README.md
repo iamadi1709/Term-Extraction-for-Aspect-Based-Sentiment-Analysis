@@ -13,25 +13,26 @@ Our technique improved F1 score by 2.5% over existing methods, showcasing the ef
 
 The dataset consists of 515,000 hotel reviews, offering valuable insights for both aspect extraction and sentiment analysis. Here’s a breakdown of the data:
 
-📋 Data Fields:     
-            **Column Name**	   =           **Description**
-             Hotel_Address    =           Address of the hotel.
-             Review_Date	   =        Date when the review was posted.
-            Average_Score	   =   The average score of the hotel based on recent reviews.
-             Hotel_Name      =            	    Name of the hotel.
-      Reviewer_Nationality	   =         Nationality of the reviewer.
-      Negative_Review	     =      Negative comments (if any) made by the reviewer.
- Review_Total_Negative_Word_Counts = Number of words in the negative review.
-  Positive_Review	       =          Positive comments (if any) made by the reviewer.
-Review_Total_Positive_Word_Counts	=  Number of words in the positive review.
-Reviewer_Score	      =          Score given by the reviewer based on their experience.
-Total_Number_of_Reviews_Reviewer_Has_Given	= Total number of reviews posted by the reviewer.
-Total_Number_of_Reviews	=           Total number of valid reviews for the hotel.
-Tags	              =            Tags assigned by the reviewer (e.g., trip type, room type).
-days_since_review      =          	Duration between the review date and the scrape date.
-Additional_Number_of_Scoring	 =       Number of scoring-only entries (without a review).
-      lat	                     =                Latitude of the hotel.
-      lng	                     =                 Longitude of the hotel.
+📋 **Data Fields**
+**This dataset consists of various fields providing detailed information about hotel reviews. Below is a description of each field:**
+
+Hotel_Address: The physical address of the hotel.
+Review_Date: The date when the review was posted by the reviewer.
+Average_Score: The average score of the hotel, calculated based on the most recent reviews.
+Hotel_Name: The name of the hotel being reviewed.
+Reviewer_Nationality: The nationality of the reviewer.
+Negative_Review: Negative comments made by the reviewer, or "No Negative" if no negative review was provided.
+Review_Total_Negative_Word_Counts: The total number of words in the negative review (if applicable).
+Positive_Review: Positive comments made by the reviewer, or "No Positive" if no positive review was provided.
+Review_Total_Positive_Word_Counts: The total number of words in the positive review (if applicable).
+Reviewer_Score: The score given by the reviewer based on their overall experience at the hotel.
+Total_Number_of_Reviews_Reviewer_Has_Given: The total number of reviews the reviewer has posted for different hotels.
+Total_Number_of_Reviews: The total number of valid reviews received by the hotel.
+Tags: Tags provided by the reviewer, which may include trip type, room type, or other descriptive details.
+days_since_review: The number of days between the review date and the scrape date.
+Additional_Number_of_Scoring: The number of instances where a guest provided a score without a written review.
+lat: The latitude coordinate of the hotel location.
+lng: The longitude coordinate of the hotel location.
 
 ⚙️ Methodology
 Our Term Extraction (TE) method uses a deep learning model that combines:
