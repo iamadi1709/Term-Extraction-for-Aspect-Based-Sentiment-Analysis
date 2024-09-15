@@ -4,6 +4,8 @@
 
 Welcome to the Term Extraction for Aspect-Based Sentiment Analysis (ABSA) project! This project uses cutting-edge deep learning techniques to extract aspect terms from hotel reviews, enabling powerful aspect-based sentiment analysis 🧠. Let's dive into the world of customer sentiments and reviews! 🌟
 
+<img width="852" alt="image" src="https://github.com/user-attachments/assets/cbaa3cef-f5d4-4aa6-abb8-404bf2ba4e9a">
+
 📚 Abstract
 Aspect-Based Sentiment Analysis (ABSA) is a crucial tool for breaking down customer reviews into specific aspects, like room quality or service, and determining the sentiment associated with each aspect.
 
