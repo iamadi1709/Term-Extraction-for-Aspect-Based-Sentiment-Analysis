@@ -10,6 +10,7 @@ In this project, we designed a novel Term Extraction (TE) model using deep learn
 Our technique improved F1 score by 2.5% over existing methods, showcasing the effectiveness of the model! 🎉
 
 🗂️ Dataset: 515K Hotel Reviews in Europe:https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe
+
 The dataset consists of 515,000 hotel reviews, offering valuable insights for both aspect extraction and sentiment analysis. Here’s a breakdown of the data:
 
 📋 Data Fields:     
