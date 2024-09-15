@@ -9,7 +9,7 @@ In this project, we designed a novel Term Extraction (TE) model using deep learn
 
 Our technique improved F1 score by 2.5% over existing methods, showcasing the effectiveness of the model! 🎉
 
-🗂️ Dataset: 515K Hotel Reviews in Europe
+🗂️ Dataset: 515K Hotel Reviews in Europe:https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe
 The dataset consists of 515,000 hotel reviews, offering valuable insights for both aspect extraction and sentiment analysis. Here’s a breakdown of the data:
 
 📋 Data Fields:     
@@ -60,7 +60,7 @@ cd term-extraction-absa
 
 2. Install the required dependencies: pip install -r requirements.txt
 
-3. Download the dataset kaggle or download from above uploaded Hotel_Reviews.csv.
+3. Download the dataset from kaggle : https://www.kaggle.com/datasets/jiashenliu/515k-hotel-reviews-data-in-europe
 
 📊 Running the Model
 To run the Term Extraction (TE) model and extract aspects from the hotel reviews dataset, execute: python run_te_model.py --input data/hotel_reviews.csv --output results/aspect_terms.csv
