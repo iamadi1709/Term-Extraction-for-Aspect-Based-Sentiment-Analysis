@@ -1,5 +1,7 @@
 **🏨 Term Extraction for Aspect-Based Sentiment Analysis 📝**
 
+![image](https://github.com/user-attachments/assets/4d982e92-b96a-49ac-bb7b-c8af86000043)
+
 Welcome to the Term Extraction for Aspect-Based Sentiment Analysis (ABSA) project! This project uses cutting-edge deep learning techniques to extract aspect terms from hotel reviews, enabling powerful aspect-based sentiment analysis 🧠. Let's dive into the world of customer sentiments and reviews! 🌟
 
 📚 Abstract
@@ -35,13 +37,20 @@ lat: The latitude coordinate of the hotel location.
 lng: The longitude coordinate of the hotel location.
 
 ⚙️ Methodology
+<img width="1038" alt="image" src="https://github.com/user-attachments/assets/aab9d55b-9322-4da6-945b-3afe39d771ab">
+
 Our Term Extraction (TE) method uses a deep learning model that combines:
 
 Linguistic Features: Extracts aspect terms based on part-of-speech tags and dependency relations.
 Contextual Data: Leverages nearby text to enhance the accuracy of term extraction.
 By analyzing 515,000 reviews, we achieve top-notch accuracy in extracting aspect terms, improving the overall performance of ABSA systems. 📈
 
+<img width="1203" alt="image" src="https://github.com/user-attachments/assets/8b6c6ca0-d29c-47be-b980-c942177d05b2">
+
 🚀 Results
+
+<img width="1125" alt="image" src="https://github.com/user-attachments/assets/b1af3225-5b06-4564-8be7-9e202634d3fd">
+
 Our model significantly enhances aspect term extraction from hotel reviews, improving F1 score by 2.5% compared to previous methods! This means better identification of customer preferences and sentiment trends, across positive, negative, and neutral reviews.
 
 But that's not all! We also evaluated our model using the BLEU score for assessing the quality of aspect term extraction. This measure helps evaluate how closely the extracted terms match the ground truth. 🌟
