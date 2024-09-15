@@ -53,7 +53,8 @@ Python 3.x 🐍
 Libraries: pandas, numpy, tensorflow, nltk, scikit-learn, etc.
 
 Installation Steps
-1. Clone this repository:git clone https://github.com/your-repo/term-extraction-absa.git
+1. Clone this repository: https://github.com/iamadi1709/Term-Extraction-for-Aspect-Based-Sentiment-Analysis.git
+
 cd term-extraction-absa
 
 2. Install the required dependencies: pip install -r requirements.txt
